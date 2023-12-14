@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devoir</title>
+    <link rel="stylesheet" href="devoir.css">
+    <script>
+        function openExercice() {
+            var url = document.getElementById("Exercices").value;
+            if (url) {
+                window.location.href = url;
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>DEVOIR N°1 DE PHP</h1>
+        <h2>Page d'Exercices PHP</h2>
+        <p><marquee>Bienvenue sur notre page d'exercices PHP. Choisissez un exercice</marquee></p>
+    </header>
+    <main>
+        <form>
+            <label for="Exercices">Veuillez sélectionner un Exercice:</label>
+            <select id="Exercices" onchange="openExercice()">
+            <optgroup label="Groupe 1">
+                <Option value="Exercice1.php">Exercice1</Option>
+                <Option value="Exercice2.php">Exercice2</Option>
+                <Option value="Exercice3.php">Exercice3</Option>
+                <Option value="Exercice4.php">Exercice4</Option>
+                <Option value="Exercice5.php">Exercice5</Option>
+            </optgroup>
+            <optgroup label="Groupe 2">
+                <Option value="Exercice6.php">Exercice6</Option>
+                <Option value="Exercice7.php">Exercice7</Option>
+                <Option value="Exercice8.php">Exercice8</Option>
+                <Option value="Exercice9.php">Exercice9</Option>
+                <Option value="Exercice10.php">Exercice10</Option>
+                <Option value="Exercice11.php">Exercice11</Option>
+            </optgroup>
+            <optgroup label="Groupe 3">
+                <Option value="Exercice12.php">Exercice12</Option>
+                <Option value="Exercice13.php">Exercice13</Option>
+                <Option value="Exercice14.php">Exercice14</Option>
+                <Option value="Exercice15.php">Exercice15</Option>
+                <Option value="Exercice16.php">Exercice16</Option>
+                <Option value="Exercice17.php">Exercice17</Option>
+            </optgroup>
+            </select>
+        </form>
+    </main>
+</body>
+</html>
