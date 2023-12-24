@@ -15,21 +15,6 @@ $personnes = array(
     <link rel="stylesheet" href="devoir.css">
 </head>
 <body>
-<table border="1">
-    <tr>
-        <th>Nom</th>
-        <th>Prénom</th>
-        <th>Ville</th>
-        <th>Age</th>
-    </tr>
-    <?php foreach ($personnes as $nom => $infos) { ?>
-        <tr>
-            <td><?php echo $nom; ?></td>
-            <td><?php echo $infos['prenom']; ?></td>
-            <td><?php echo $infos['ville']; ?></td>
-            <td><?php echo $infos['age']; ?></td>
-        </tr>
-    <?php } ?>
-</table>
+    <h1> tableau multidimensionnel associatif</h1>
 </body>
 </html>
