@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercice1</title>
+    <link rel="stylesheet" href="devoir.css">
 </head>
 <body>
-    <table border=1>
+    <table border=2>
         <tr>
             <td>Valide</td>
             <td>Non valide</td>
