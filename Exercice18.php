@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +13,7 @@
     for ($j = 1; $j <= $i; $j++) {
         echo $i . " ";
     }
-    echo "\n";
+    echo "\n <br>";
 }
 ?>
 </body>
