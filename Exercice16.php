@@ -12,9 +12,10 @@ function sinus($angle, $unit = 'radian') {
             break;
     }
     return sin($angle);
-    echo sinus(90, 'degre');  // retourne 1
-    echo sinus(100, 'grade');  // retourne 1
-    echo sinus(pi()/2, 'radian');  // retourne 1
-
 }
+
+echo sinus(90, 'degre'); // retourne 1
+echo sinus(100, 'grade'); // retourne 1
+echo sinus(pi()/2, 'radian'); // retourne 1
+
 ?>
