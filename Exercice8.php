@@ -15,6 +15,6 @@ $personnes = array(
     <link rel="stylesheet" href="devoir.css">
 </head>
 <body>
-    <h1> tableau multidimensionnel associatif</h1>
+    <h1>Exercice8:Tableau multidimensionnel indicé</h1>
 </body>
 </html>

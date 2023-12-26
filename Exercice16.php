@@ -14,8 +14,16 @@ function sinus($angle, $unit = 'radian') {
     return sin($angle);
 }
 
-echo sinus(90, 'degre'); // retourne 1
-echo sinus(100, 'grade'); // retourne 1
-echo sinus(pi()/2, 'radian'); // retourne 1
-
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice16</title>
+    <link rel="stylesheet" href="devoir.css">
+</head>
+<body>
+    <h1>Exercice 16: Fonction de calcul du sinus</h1>
+</body>
+</html>

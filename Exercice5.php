@@ -16,7 +16,7 @@ if (isset($_POST['number'])) {
     <link rel="stylesheet" href="devoir.css">
 </head>
 <body>
-<h1>EXERCICE 5</h1>
+<h1>EXERCICE 5:Cercle</h1>
 <form method="post">
         <label for="">veuiller saisir le rayon: </label>
         <input type="text" name="number"><br>

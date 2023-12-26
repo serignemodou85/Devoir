@@ -22,12 +22,10 @@ $personnes = array(
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercice9</title>
+    <title>Exercice9:</title>
     <link rel="stylesheet" href="devoir.css">
 </head>
-<body>
-    <h1>tableau multidimensionnel associatif</h1>
-
-</body>
+    <body>
+        <h1>Exercice9:Tableau multidimensionnel associatif</h1>
+    </body>
 </html>
-

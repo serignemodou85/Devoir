@@ -29,10 +29,12 @@ if (isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['adresse']) 
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <title>Exercice12:</title>
+    <link rel="stylesheet" href="devoir.css">
 </head>
 <body>
-    <h1>Formulaire Adresse Client</h1>
+    <h1>Exercice12:Formulaire Adresse Client</h1>
     <form action="traitement.php" method="post">
         <fieldset>
             <legend>Adresse client</legend>
@@ -52,7 +54,6 @@ if (isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['adresse']) 
             <input type="text" id="codepostal" name="codepostal" required><br>
         </fieldset>
         <input type="submit" value="Envoyer">
-        
     </form>
 </body>
 </html>

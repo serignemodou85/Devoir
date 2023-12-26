@@ -10,11 +10,11 @@ if (!empty($_POST)) {
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Exercice11:</title>
+    <title>Exercice13</title>
     <link rel="stylesheet" href="devoir.css">
 </head>
 <body>
-    <h1>Formulaire Prix TTC</h1>
+    <h1>Exercice13:Formulaire de calcul de TVA</h1>
     <form method="post">
     Prix HT: <input type="text" name="prixHT" value="<?php echo $prixHT;?>">
     Taux TVA: <input type="text" name="tauxTVA" value="<?php echo $tauxTVA;?>">

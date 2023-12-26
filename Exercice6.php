@@ -16,9 +16,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exo6</title>
+    <link rel="stylesheet" href="devoir.css">
 </head>
 <body>
-<h1>EXERCICE 6: </h1>
+<h1>EXERCICE 6:Diviseurs d’un nombre </h1>
     <p>un programme qui affiche l’ensemble des diviseurs d’un nombre saisi au clavier.</p>
     <form method="post">
         <label for="">veuiller saisir le nombre: </label>

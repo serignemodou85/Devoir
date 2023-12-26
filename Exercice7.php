@@ -15,9 +15,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exo7</title>
+    <link rel="stylesheet" href="devoir.css">
 </head>
 <body>
-<h1>EXERCICE 7</h1>
+<h1>EXERCICE 7:Nombre Parfait</h1>
 <form method="post">
         <label for="">veuiller saisir le nombre: </label>
         <input type="text" name="number"><br>
