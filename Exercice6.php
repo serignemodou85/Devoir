@@ -1,15 +1,3 @@
-<?php
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $nombre = intval(trim($_POST['number']));
-    $diviseurs = [];
-
-    for ($i = 1; $i <= $nombre; $i++) {
-        if ($nombre % $i == 0) {
-            $diviseurs[] = $i;
-        }
-    }
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,5 +15,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <button type="submit">envoyer</button>
     </form>
 </body>
-<?php echo "le Diviseur de $nombre est : " . implode(", ", $diviseurs) . "\n"; ?>
+<?php 
+    if (isset($_POST['number'])) {if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+        $nombre = intval(trim($_POST['number']));
+        $diviseurs = [];
+
+        for ($i = 1; $i <= $nombre; $i++) {
+            if ($nombre % $i == 0) {
+                $diviseurs[] = $i;
+            }
+        }
+        echo "le Diviseur de $nombre est : " . implode(", ", $diviseurs) . "\n"; 
+    }
+    } 
+    ?>
 </html>

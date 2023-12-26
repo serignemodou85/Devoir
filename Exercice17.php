@@ -32,8 +32,6 @@ function tableauToHtmlTable($array, $headers = true)
 
     return $html;
 }
-
-// Exemple d'utilisation
 $array = array(
     'Personne' => array('Modou', 'Dame', 'Ousmane'),
     'Age' => array('23', '39', '37'),

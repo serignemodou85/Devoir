@@ -1,16 +1,4 @@
 <?php
-// Vérification de la présence des variables
-if(isset($_POST['val1']) && isset($_POST['val2'])){
-    // Récupération des variables
-    $val1 = intval($_POST['val1']);
-    $val2 = intval($_POST['val2']);
-
-    // Calcul du PPCM
-    $ppcm = $val1 * $val2 / pgcd($val1, $val2);
-
-   
-}
-
 // Fonction pour calculer le plus grand commun diviseur (PGCD)
 function pgcd($a, $b){
     while($b != 0){
@@ -43,8 +31,16 @@ function pgcd($a, $b){
         <input type="submit" value="Calculer le PPCM">
     </form>
     <?php
-    // Affichage du résultat
-    echo "Le PPCM de $val1 et $val2 est $ppcm";
+    // Vérification de la présence des variables
+        if(isset($_POST['val1']) && isset($_POST['val2'])){
+            // Récupération des variables
+            $val1 = intval($_POST['val1']);
+            $val2 = intval($_POST['val2']);
+        
+            // Calcul du PPCM
+            $ppcm = $val1 * $val2 / pgcd($val1, $val2);
+            echo "Le PPCM de ".$val1." et ".$val2." est ".$ppcm; 
+        }
     ?>
 </body>
 </html>
