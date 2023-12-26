@@ -26,25 +26,23 @@
     </head>
     <body>
         <h1>Exercice10:Boucle foreach.</h1>
-    <table border=1>
-        <tr>
-            <th>Nom</th>
-            <th>Prénom</th>
-            <th>Ville</th>
-            <th>Âge</th>
-        </tr>
-        <?php
-        foreach($personnes as $nom => $info){
-            echo "Nom : " . $nom . "<br>";
-            echo "Prénom : " . $info['prenom'] . "<br>";
-            echo "Ville : " . $info['ville'] . "<br>";
-            echo "Age : " . $info['age'] . "<br>";
-            if(isset($info['numero_de_telephone'])){
-                echo "Numéro de téléphone : " . $info['numero_de_telephone'] . "<br>";
+        <table border=1>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Ville</th>
+                <th>Âge</th>
+            </tr>
+            <?php
+            foreach($personnes as $nom => $info){
+                echo "<tr>";
+                echo "<td>$nom</td>";
+                echo "<td>".$info['prénom']."</td>";
+                echo "<td>".$info['ville']."</td>";
+                echo "<td>".$info['âge']."</td>";
+                echo "</tr>";
             }
-            echo "<hr>";
-        }
-        ?>
+            ?>
+        </table>
     </body>
 </html>
-            
