@@ -29,7 +29,6 @@ if (isset($_POST['number'])) {
 <body>
     <h1>Exercice3:Tirages aléatoires</h1>
     <form method="post">
-        </marquee>
         <label for="">veuiller saisir le nombre: </label>
         <input type="text" name="number"><br>
         <button type="submit">envoyer</button>
